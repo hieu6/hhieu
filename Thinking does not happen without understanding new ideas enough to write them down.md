@@ -1,4 +1,7 @@
+<<<<<<< HEAD:Thinking does not happen without understanding new ideas enough to write them down.md
 
+=======
+>>>>>>> f8cc1d4d362c76c7a6a2468db952a95a5b724d1a:content/Thinking does not happen without understanding new ideas enough to write them down.md
 ## 1. Fleeting notes
 
 - 'Capture' thoughts, especially persistent ones to get them out of your head
