@@ -1,9 +1,3 @@
----
-publish: true
-created: 2026-10-24T21:26:36.349Z
-modified: 2026-10-24T21:27:11.406Z
----
-
 ## 1. Fleeting notes
 
 - 'Capture' thoughts, especially persistent ones to get them out of your head
