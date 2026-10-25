@@ -27,9 +27,3 @@ Check the live website
 - `git add .` -> `git status` -> `git commit` -> `git push`
 
 ---
-
-<<<<<<< HEAD
-connect github to netlify
-=======
-connect github to netlify
->>>>>>> f8cc1d4d362c76c7a6a2468db952a95a5b724d1a
