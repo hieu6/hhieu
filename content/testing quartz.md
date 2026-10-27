@@ -25,5 +25,4 @@ Check the live website
 
 - use to sync published pages to site `npx quartz sync`
 - `git add .` -> `git status` -> `git commit` -> `git push`
-
----
+- `git pull` / `git merge`
