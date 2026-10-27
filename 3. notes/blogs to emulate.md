@@ -1,0 +1,11 @@
+- https://quartz.eilleeenz.com/
+	- "The whole site is a work in progress! (it’ll always be a work in progress)"
+	- located in the bay area! which is fun, though not relevant
+	- site used a bullet journal blob. not precious about it
+	- tags to steal: gaming, resources, 
+	- [their quartz cheatsheet](https://quartz.eilleeenz.com/Quartz-Cheatsheet#user-content-fnref-1)
+	- [add a custom landing page](https://github.com/Socratica-Org/toolbox/commit/3d6130bcb67734cba902216dfa7ca653576fa328#diff-a4f40b84fbcf1a7939d596dca4939bbae6e56c05ad06a62b719b42693a9baf07) : Basically the index.md in the main content folder is blank except for title, and then other stuff is in the Landing.tsx page. Then they use a slug === index to put in the landing page and then any other index.md content after that.
+- https://ericwbailey.website/
+	- "updating in the open. things might look a little janky for a bit, but that's okay! i am in the process of *refreshing the design*."
+	- "It's less a portfolio and more a centralized reference for all my various internet-related activities."
+- [other cool blogs and sites](https://quartz.eilleeenz.com/Cool-other-websites)

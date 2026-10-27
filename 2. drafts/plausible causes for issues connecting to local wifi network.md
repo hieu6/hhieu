@@ -12,8 +12,6 @@
 - bad DNS settings or a leftover custom DNS/proxy configuration[^6], which can look like "connected but nothing loads"
 - a VPN, firewall, security or content filter app interfering with the connection
 
-
-
 [^1]: A captive portal controls access to wifi networks by redirecting users to a login page before granting internet access.
 
 [^2]: what causes a corrupted saved network entry?

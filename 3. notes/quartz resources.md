@@ -1,0 +1,3 @@
+- [supported obsidian themes for quartz](https://github.com/saberzero1/quartz-themes#supported-themes)
+- [neutral style icons](https://remixicon.com/)
+- 
