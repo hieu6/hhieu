@@ -4,14 +4,11 @@
 
 
 /*
- * Quartz 5 — Everforest
- * Dark: Hard
- * Light: Soft
- * Based on sainnhe/everforest
+ * Based on palette: https://coolors.co/c4bbaf-a5978b-5c4742-8d5b4c-5a2a27
  */
 
-/* ── Everforest Soft Light ── */
 
+/* ──  Light ── */
 :root {
   --light: #F4F0EB;       /* Soft warm background */
   --lightgray: #D6CCC1;   /* Surface background */
@@ -26,7 +23,7 @@
 }
 
 
-/* ── Everforest Hard Dark ── */
+/* ──  Dark ── */
 html[saved-theme="dark"] {
   --light: #261E1C;       /* Hard dark background */
   --lightgray: #493632;   /* Raised surfaces */

@@ -1,5 +1,0 @@
-- odyssey of the dragonlords
-- lost mine of phandelver
-- drakkenheim 
-	- what i learned about dming for the first time: my style, my prep, my roleplay
-	- what i like, don't like, would do differently, could do better
