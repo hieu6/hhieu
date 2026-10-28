@@ -1,0 +1,41 @@
+@use "./variables.scss" as *;
+
+// put your custom CSS here!
+
+
+/*
+ * Quartz 5 — Everforest
+ * Dark: Hard
+ * Light: Soft
+ * Based on sainnhe/everforest
+ */
+
+/* ── Everforest Soft Light ── */
+
+:root {
+  --light: #F3EAD3;       /* Soft warm background */
+  --lightgray: #EAE4CA;   /* Surface background */
+  --gray: #939F91;        /* Borders and muted elements */
+  --darkgray: #5C6A72;    /* Secondary text */
+  --dark: #5C6A72;         /* Main text */
+
+  --secondary: #8DA101;   /* Green links */
+  --tertiary: #35A77C;    /* Hover and emphasis */
+  --highlight: #E5E6C5;   /* Highlighted surfaces */
+  --textHighlight: #F4DBD0;
+}
+
+
+/* ── Everforest Hard Dark ── */
+html[saved-theme="dark"] {
+  --light: #272E33;       /* Hard dark background */
+  --lightgray: #2E383C;   /* Raised surfaces */
+  --gray: #7A8478;        /* Borders and muted elements */
+  --darkgray: #A7C080;    /* Secondary text */
+  --dark: #D3C6AA;         /* Main text */
+
+  --secondary: #A7C080;   /* Green links */
+  --tertiary: #83C092;    /* Aqua-green emphasis */
+  --highlight: #3C4841;   /* Highlighted surfaces */
+  --textHighlight: #4C3743;
+}

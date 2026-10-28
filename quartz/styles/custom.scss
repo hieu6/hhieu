@@ -8,33 +8,34 @@
  * Dark: Hard
  * Light: Soft
  * Based on sainnhe/everforest
- * Colors only; preserves native Quartz theme toggle.
  */
 
 /* ── Everforest Soft Light ── */
-:root {
-  --light: #F3EAD3;       /* Soft warm background */
-  --lightgray: #EAE4CA;   /* Surface background */
-  --gray: #939F91;        /* Borders and muted elements */
-  --darkgray: #5C6A72;    /* Secondary text */
-  --dark: #5C6A72;         /* Main text */
 
-  --secondary: #8DA101;   /* Green links */
-  --tertiary: #35A77C;    /* Hover and emphasis */
-  --highlight: #E5E6C5;   /* Highlighted surfaces */
-  --textHighlight: #F4DBD0;
+:root {
+  --light: #F4F0EB;       /* Soft warm background */
+  --lightgray: #D6CCC1;   /* Surface background */
+  --gray: #A5978B;        /* Borders and muted elements */
+  --darkgray: #5C4742;    /* Secondary text */
+  --dark: #3D2D29;         /* Main text */
+
+  --secondary: #8D5B4C;   /* Green links */
+  --tertiary: #5A2A27;    /* Hover and emphasis */
+  --highlight: #8d5b4c24;   /* Highlighted surfaces */
+  --textHighlight: #c4bbafa6;
 }
+
 
 /* ── Everforest Hard Dark ── */
 html[saved-theme="dark"] {
-  --light: #272E33;       /* Hard dark background */
-  --lightgray: #2E383C;   /* Raised surfaces */
-  --gray: #7A8478;        /* Borders and muted elements */
-  --darkgray: #A7C080;    /* Secondary text */
-  --dark: #D3C6AA;         /* Main text */
+  --light: #261E1C;       /* Hard dark background */
+  --lightgray: #493632;   /* Raised surfaces */
+  --gray: #A5978B;        /* Borders and muted elements */
+  --darkgray: #D6CCC1;    /* Secondary text */
+  --dark: #F0E8DF;         /* Main text */
 
-  --secondary: #A7C080;   /* Green links */
-  --tertiary: #83C092;    /* Aqua-green emphasis */
-  --highlight: #3C4841;   /* Highlighted surfaces */
-  --textHighlight: #4C3743;
+  --secondary: #C4A99D;   /* Green links */
+  --tertiary: #C4BBAF;    /* Aqua-green emphasis */
+  --highlight: #8d5b4c40;   /* Highlighted surfaces */
+  --textHighlight: #a5978b73;
 }
