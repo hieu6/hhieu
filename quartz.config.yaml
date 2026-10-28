@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: hieu nguyen
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: quartz.jzhao.xyz
+  baseUrl: hhieu.xyz
   ignorePatterns:
     - private
     - templates
@@ -41,6 +41,10 @@ configuration:
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#b3aa0288"
 plugins:
+  - source: "@quartz-themes/core"
+    options:
+      theme: "everforest"
+      mode: "both"
   - source: "@quartz-community/created-modified-date"
     enabled: true
     options:
