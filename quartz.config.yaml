@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: hieu
+  pageTitle: hieu hui
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -15,9 +15,9 @@ configuration:
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
-    typography: Arvo
-      header: DM Mono
-      body: DM Mono
+    typography:
+      header: Schibsted Grotesk
+      body: Source Sans Pro
       code: IBM Plex Mono
     colors:
       lightMode:
@@ -41,11 +41,6 @@ configuration:
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#b3aa0288"
 plugins:
-  - source: "@quartz-themes/core"
-    options:
-      theme: everforest
-      mode: both
-    enabled: false
   - source: "@quartz-community/created-modified-date"
     enabled: true
     options:
@@ -87,7 +82,7 @@ plugins:
     enabled: true
     order: 70
   - source: "@quartz-community/latex"
-    enabled: false
+    enabled: true
     options:
       renderEngine: katex
     order: 80
@@ -141,7 +136,7 @@ plugins:
       position: left
       priority: 50
   - source: "@quartz-community/graph"
-    enabled: false
+    enabled: true
     layout:
       position: right
       priority: 10
@@ -208,13 +203,11 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
     layout:
       position: footer
       priority: 50
   - source: "@quartz-community/recent-notes"
-    enabled: false
+    enabled: true
   - source: "@quartz-community/spacer"
     enabled: true
     options: {}
